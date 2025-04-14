@@ -6,7 +6,7 @@ on:
       - develop
 
 env:
-  IMAGE_NAME: mar97/node-k8s-app  
+  IMAGE_NAME: node-k8s-app  
   IMAGE_VERSION: env.COMMIT_SHA
 
 jobs:
